@@ -38,6 +38,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/DumpGraph.srv"
   "srv/SaveMap.srv"
   "srv/LoadGraph.srv"
+  "srv/SaveKeystamps.srv"
   DEPENDENCIES builtin_interfaces rosidl_default_generators std_msgs geometry_msgs sensor_msgs visualization_msgs
 )
 
