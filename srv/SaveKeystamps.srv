@@ -1,3 +1,4 @@
 string destination
+string sequence
 ---
 bool success
